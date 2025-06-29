@@ -1,0 +1,10 @@
+*{
+
+}
+
+.index__body{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    /* width: 400px; */
+    height: 1000vh;
+    background-color: yellow;
+}
