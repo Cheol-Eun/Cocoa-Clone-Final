@@ -2,9 +2,23 @@
 
 }
 
-.index__body{
+.body__index{
     font-family: -apple-system, system-ui, 'Segoe UI';
-    /* width: 400px; */
-    height: 1000vh;
+    width: 400px;
+    height: 100vh;
     background-color: yellow;
+}
+
+.body__friends{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    width: 400px;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.body__chats{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    width: 400px;
+    height: 100vh;
+    /* background-color: yellow; */
 }

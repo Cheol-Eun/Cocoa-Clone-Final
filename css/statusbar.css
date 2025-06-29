@@ -1,11 +1,12 @@
 .status-bar {
     display:flex;
     justify-content: space-between;
-    position:fixed;
-    top:0x;
+    align-items: center;
     width: 95%;
-    padding:10x;
-    box-sizing: border-box;
+    position: pixed;
+    top:5px;
+    /* padding:10x; */
+    /* box-sizing: border-box; */
 }
 
 .status-bar__column:first-child span{
