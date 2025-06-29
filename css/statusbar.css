@@ -2,8 +2,8 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
-    position: pixed;
+    /* position: fixed; */
+    width:inherit;
     top:5px;
     /* padding:10x; */
     /* box-sizing: border-box; */

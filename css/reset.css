@@ -4,21 +4,35 @@
 
 .body__index{
     font-family: -apple-system, system-ui, 'Segoe UI';
-    width: 400px;
+    width: 460px;
     height: 100vh;
     background-color: yellow;
 }
 
 .body__friends{
     font-family: -apple-system, system-ui, 'Segoe UI';
-    width: 400px;
+    width: 460px;
     height: 100vh;
     /* background-color: yellow; */
 }
 
 .body__chats{
     font-family: -apple-system, system-ui, 'Segoe UI';
-    width: 400px;
+    width: 460px;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.body__find{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    width: 460px;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.body__more{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    width: 460px;
     height: 100vh;
     /* background-color: yellow; */
 }

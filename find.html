@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cocoa Clone Final</title>
     </head>
-    <body class="body__friends">
+    <body class="body__find">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -21,30 +21,44 @@
             </div>
         </div>
         <header class="screen-header">
-            <h1 class="screen-header__title">Friends</h1>
+            <h1 class="screen-header__title">Find</h1>
             <div class="screen-header__icons">
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                <span><i class="fa-solid fa-user-plus"></i></span>
-                <span><i class="fa-solid fa-music"></i></span>
                 <span><i class="fa-solid fa-gear"></i></span>
             </div>
         </header>
-        <a id="friends_display_link">
-            <i class="fa-solid fa-circle-info"></i>
-            Friends' Names Display
-        </a>
-        <div class="usercomponent">
-            <div class="usercomponent__column">
-                <a href="chats.html">
-                <img class="usercomponent__avatar" src="https://avatars.githubusercontent.com/u/215622248?u=c51ca3673041a471f0007a0ce8dc0ef9a3b30c77&v=4" />
-                </a>
-                <div>
-                    <h3 class="usercomponent__title">Cheol-Eun</h3>
-                    <h6 class="usercomponent__subtitle">+82-10-4524-3830</h6>
-                </div>
+        <div class="find-menu">
+            <div class="find-menu__item">
+                <i class="fa-solid fa-qrcode fa-2x"></i>
+                <span>QR code</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-regular fa-address-book fa-2x"></i>
+                <span>Add by Contacs</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-solid fa-fingerprint fa-2x"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-menu__item">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <span>Invite</span>
             </div>
         </div>
-        <hr style="border: 1px solid rgba(0,0,0,0.2)">
+        <div class="find-recommend">
+            <hr>
+            <h5> Recommended Friends</h5>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <h3> You have no recommended friend.</h3>
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr>
+        </div>
+        <!-- <hr style="border: 1px solid rgba(0,0,0,0.2)"> -->
         <div class="nav">
             <div class="nav_btn">
                 <a class="nav_link" href="#"><i class="fa-solid fa-user fa-2x"></i></a>
@@ -55,7 +69,7 @@
                     <i class="fa-brands fa-rocketchat fa-2x"></i>
                 </a>
             </div>
-            <div class="nav_btn"><a class="nav_link" href="find.html">
+            <div class="nav_btn"><a class="nav_link" href="#">
                 <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
             </div>
             <div class="nav_btn"><a class="nav_link" href="more.html">
@@ -65,4 +79,3 @@
         <script src="https://kit.fontawesome.com/995da22fd7.js" crossorigin="anonymous"></script> 
     </body>
 </html>
-
