@@ -39,3 +39,7 @@
   margin-left: auto;
 }
 
+.alt-header__column:last-child span {
+  margin-left: 10px;
+}
+

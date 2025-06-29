@@ -43,3 +43,11 @@
     height: 100vh;
     /* background-color: yellow; */
 }
+
+.body__chat{
+    font-family: -apple-system, system-ui, 'Segoe UI';
+    width: 460px;
+    height: 100vh;
+    background-color:#abc1d1;
+    /* background-color: yellow; */
+}
