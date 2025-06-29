@@ -118,3 +118,20 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.setting__list{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.setting__list i{
+    margin-left: 20px;
+    color: rgba(0,0,0,0.4);
+}
+
+.setting__list span{
+    font-size: 14pt;
+    margin-left: 30px;
+}
